@@ -1,0 +1,92 @@
+#C#Exercise2CalculatingAverages
+
+##Norma I. Ayala-Rosa
+
+
+2a. Sum of numbers
+
+Console.WriteLine("Sum ten integers. ");
+   int sum = 0;
+   int count = 0;
+   get sums();
+   Console.WriteLine($The sum is {sum,}.");
+
+   void get_sums()
+   {
+   count ++;
+   Console.WriteLine( "Enter integer " + count + ":");
+   sum += int.Parse(Console.ReadLine());
+   if (count < 10)
+   get_sums();
+   else
+   return;
+
+2b. Averages ten scores 
+
+How would I get average test scores based off 10 scores?
+
+variables - know total of scores
+sum of 10 scores - store value
+avg - avg = (sum test scores/10)
+
+constraint 0-100
+
+##Name: Averages ten scores
+
+double avg;
+double sum;
+int count = 0
+Console.WriteLine("input test scores");
+Sum = sum + double.Parse(Console.ReadLine());
+if (count > 10)
+avg = (sum/10)
+Console.WriteLine($"avg is: {avg}");
+else
+{
+sum = sum + double.Parse(Console.Readline());
+
+
+2c. Average of specific number of scores
+
+
+
+
+2d. Average of non-specific number of scores
+variables
+double avg;
+double sum;
+double Count = 0
+void Testscore()
+Console.WriteLine("input test scores");
+Sum + = double.Parse(Console.ReadLine());
+Count++;
+Console.WriteLine("Do you have any more scores");
+String x = Console.ReadLine();
+If (x=="Yes")
+{
+Testscores(?);
+		}
+else
+{
+avg = Sum/count
+Console.WriteLine = ("Youravgis");
+}
+private Char Grade(intscore)//grade tests
+{
+if score >=90)
+{
+return 'A');
+{
+if score >=80);
+{
+return 'B');
+if score >=70);
+{
+return 'C');
+if score >=60);
+{
+return 'D');
+if score >=50);
+{
+return 'F');
+}

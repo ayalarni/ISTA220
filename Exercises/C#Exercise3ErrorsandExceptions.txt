@@ -1,0 +1,96 @@
+#C#Exercise3
+
+##Norma I. Ayala-Rosa
+
+###Errors and Exceptions
+
+3a. Circles, Hemisphere, and Triangles
+
+Find the Area and Circumference of a Circle
+
+2 Pir = Circle
+Pir2 = Area
+ 
+Variables 			Formulas
+- Pi = 3.14159			2 x 3.14159 x radius = Circumference
+- radius = User input		3.14159 (radius.radius) = Area
+- Area
+- Circumference
+
+Exponential notation
+Math.POW (radius.2)
+       variable  exponent
+
+//Tell the user what to do
+//User gives value to radius
+//Calculate
+//Report back to user
+
+
+Console.WriteLine("Enter radius");
+double radius = double.Parse(Console.ReadLine());
+doublePi = 3.14159
+doublecircum = 2Pi.radius
+double.Area = Pi(radius.radius);
+
+Console.WriteLine($"The area is {Area}" +
+"The circumference is {circum}");
+
+
+Try/Catch
+Format Exception error
+
+Try
+{
+Console.WriteLine("Enter radius");
+double radius = double.Parse(Console.ReadLine());
+doublePi = 3.14159
+doublecircum = 2Pi.radius
+double.Area = Pi(radius.radius);
+
+Console.WriteLine($"The area is {Area}" +
+"The circumference is {circum}");
+}
+
+Catch
+Format Exception error
+
+{
+Console.WriteLine("Enter number only");
+}
+
+3d. 
+Finally
+{
+Console.WriteLine("The program is done");
+}
+
+3b. Comprehensive exceptions, quadratic formula error
+x = -b +_ square root b2-4ac/2a
+
+variables
+ax2 + bx + c = 0
+
+a, b, c, x = double
+
+void Quadratic()
+Console.WriteLine("Enter value of a");
+doublea = double.Parse(Console.ReadLine());
+doubleb = double.Parse(Console.ReadLine());
+doublec = double.Parse(Console.ReadLine());
+doublex = double.Parse(Console.ReadLine());
+double square = Math.square((Math.POW(b,2)) - (4*a*c))
+if (square < 0)
+{
+Console.WriteLine("You took a square root of reg value,
+   enter number again");
+}
+Goto start;
+double square DIV = square/(2*a);
+double x1 = -b + sqrDIV;
+double x2 = -b + sqrDIV;
+Console.WriteLine("x=({1}, {2}, x1, x2)
+x = (x1, x2)
+
+3c. Variable overflow
+
