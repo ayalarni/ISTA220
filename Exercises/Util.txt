@@ -1,3 +1,0 @@
-﻿1>------ Build started: Project: ParamsArray, Configuration: Debug Any CPU ------
-1>  ParamsArray -> C:\Users\Eddie\Desktop\Embry-Riddle\MSSA\Microsoft Press\VCSBS\Chapter 11\ParamsArray - Complete\ParamsArray\bin\Debug\ParamsArray.exe
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
